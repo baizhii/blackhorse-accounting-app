@@ -179,6 +179,8 @@
 | SQLite | rusqlite 0.40.2（bundled，随应用编译） | 数据文件：`%APPDATA%\com.blackhorse.accounting\blackhorse.db` |
 | 前端依赖 | Vue 3.5 + Element Plus + ECharts + Pinia（npm） | 包管理器 npm |
 | GitHub | 私有仓库 `https://github.com/baizhii/blackhorse-accounting-app` | Actions 自动双平台打包；`.github/workflows/build.yml` |
+| GitHub CLI | gh 2.x，位于 `C:\Program Files\GitHub CLI` | 已登录 baizhii 账号，用于推送与监控 Actions |
+| 安装包产物 | `release/` 目录（已 gitignore） | Windows：nsis + msi；macOS：dmg（Apple Silicon）+ app.tar.gz |
 
 ## 9. 里程碑规划（状态）
 
