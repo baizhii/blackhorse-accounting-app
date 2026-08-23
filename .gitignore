@@ -1,0 +1,19 @@
+# 依赖
+app/node_modules/
+
+# 构建产物
+app/dist/
+app/src-tauri/target/
+app/src-tauri/gen/
+
+# 本地数据与备份（数据库只存本机，绝不上传）
+*.db
+*.csv
+
+# Claude Code 本地设置（机器相关的权限规则，不入库）
+.claude/settings.json
+.claude/settings.local.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
