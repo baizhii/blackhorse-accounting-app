@@ -178,15 +178,16 @@
 | WebView2 | Win11 系统自带 | 无需安装 |
 | SQLite | rusqlite 0.40.2（bundled，随应用编译） | 数据文件：`%APPDATA%\com.blackhorse.accounting\blackhorse.db` |
 | 前端依赖 | Vue 3.5 + Element Plus + ECharts + Pinia（npm） | 包管理器 npm |
+| GitHub | 私有仓库 `https://github.com/baizhii/blackhorse-accounting-app` | Actions 自动双平台打包；`.github/workflows/build.yml` |
 
-## 9. 里程碑规划（草案）
+## 9. 里程碑规划（状态）
 
-| 阶段 | 内容 |
-|---|---|
-| M1 | 技术选型确定 → 项目初始化，跑通最小可运行骨架 |
-| M2 | 核心 MVP：记一笔、账单流水、两级分类管理 |
-| M3 | 统计分析：趋势图、分类占比图、汇总报表 |
-| M4 | 数据管理：导出、备份恢复；打包发布 macOS + Windows 安装包 |
+| 阶段 | 内容 | 状态 |
+|---|---|---|
+| M1 | 技术选型确定 → 项目初始化，跑通最小可运行骨架 | ✅ 2026-08-23 完成并验收 |
+| M2 | 核心 MVP：记一笔、账单流水、两级分类管理 | ✅ 完成并验收（含暗色模式、思源黑体等 UI 优化） |
+| M3 | 统计分析：趋势图、分类占比、排行筛选、日历视图、年度报表 | ✅ 完成并验收 |
+| M4 | 数据管理：导出 CSV、备份恢复；打包发布 macOS + Windows 安装包 | ✅ 2026-08-24 全部完成：数据管理验收通过；本机 Windows 安装包（NSIS 8.2MB）产出并安装验证；GitHub Actions 双平台安装包产物就绪（Windows 16MB / macOS 27MB） |
 
 ---
 

@@ -5,6 +5,7 @@ app/node_modules/
 app/dist/
 app/src-tauri/target/
 app/src-tauri/gen/
+release/
 
 # 本地数据与备份（数据库只存本机，绝不上传）
 *.db
